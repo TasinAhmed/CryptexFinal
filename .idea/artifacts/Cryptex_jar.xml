@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Cryptex:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Cryptex_jar</output-path>
+    <root id="archive" name="Cryptex.jar">
+      <element id="module-output" name="Cryptex" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/libraries/libraries/jfoenix-9.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/libraries/libraries/fontawesomefx-materialdesignfont-2.0.26-9.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/libraries/libraries/fontawesomefx-commons-9.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/libraries/libraries/gson-2.6.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

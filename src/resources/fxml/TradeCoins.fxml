@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="tradeScreen" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="301.0" prefWidth="400.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guicontrollers.TradeController">
+   <children>
+      <Label layoutX="28.0" layoutY="14.0" text="Enter the code of two coins to trade" textFill="#00baff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="81.0" text="Coin Code  1:" textFill="#00baff">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="118.0" text="Coin Code 2:" textFill="#00baff">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="coin1" layoutX="139.0" layoutY="81.0" prefHeight="26.0" prefWidth="235.0" />
+      <TextField fx:id="coin2" layoutX="139.0" layoutY="117.0" prefHeight="26.0" prefWidth="235.0" />
+      <JFXButton fx:id="submitButton" layoutX="172.0" layoutY="177.0" onAction="#tradeSubmit" style="-fx-background-color: #00BAFF;" text="Submit" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="tradeResult" alignment="CENTER" contentDisplay="CENTER" layoutY="212.0" prefHeight="18.0" prefWidth="400.0" textFill="#00baff">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="pathLabel" alignment="CENTER" contentDisplay="CENTER" layoutY="250.0" prefHeight="18.0" prefWidth="400.0" textFill="#00baff" wrapText="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

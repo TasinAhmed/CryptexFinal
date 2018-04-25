@@ -1,0 +1,9 @@
+Add all the Jar from the src/Libraries folder as library
+Run Main.java located in src -> main
+Create a new account, by providing an username, password, and full name; or just use the default account(Username: tasin123, Password: 123)
+Wait for app to load the coins
+Go through all the coins by changing the pages from the bottom
+Sort the coins using the Sort button located bottom right
+Double click the coins to view their specific info
+Search for a coin in the top search bar
+Click the menu on the top left to trade coins
